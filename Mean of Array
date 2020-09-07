@@ -1,0 +1,13 @@
+// https://www.codewars.com/kata/563e320cee5dddcf77000158/solutions/java
+
+public class School{
+
+ 	public static int getAverage(int[] marks){
+    int total = 0;
+    int average;
+    for(int count = 0; count < marks.length; count++){
+      total += marks[count];
+    }
+    average = total/marks.length;
+		return average;
+	}
